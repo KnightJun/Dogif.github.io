@@ -24,16 +24,17 @@ export default {
                 {
                 id: 1,
                 icon: "icon-telegram",
-                title: "Fast",
-                content: "Record and share animation with just a few clicks",
-                link:"",
+                link:"https://t.me/joinchat/umFGwk5RNrI5ZDBl",
                 },
                 {
                 id: 2,
                 icon: "icon-twitter",
-                title: "Playback",
-                content: "With playback function, easily record again if you are not satisfied",
-                link:"",
+                link:"https://twitter.com/KnightDJun",
+                },
+                {
+                id: 3,
+                icon: "icon-github",
+                link:"https://github.com/KnightJun/Dogif",
                 }
             ],
         };
