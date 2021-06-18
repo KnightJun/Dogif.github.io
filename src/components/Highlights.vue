@@ -23,14 +23,14 @@ export default {
           id: 1,
           icon: "icon-rocket",
           title: "Fast",
-          content: "Record and share animation with just a few clicks",
+          content: "Few clicks to record and share animation",
         },
         {
           id: 2,
           icon: "icon-play",
           title: "Playback",
           content:
-            "With playback function, easily record again if you are not satisfied",
+            "What you see is what you get",
         },
         { id: 3, icon: "icon-POWER",
              title: "Powerful",
@@ -62,5 +62,6 @@ export default {
 .ShowItem{
     text-align: center;
     max-width: 256px;
+    color: $mainTextColor;
 }
 </style>
