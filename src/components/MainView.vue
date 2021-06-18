@@ -26,7 +26,7 @@
         </div>
       </el-col>
       <el-col :span="12" justify="center" style="text-align: left;">
-        <el-image :src="mainui" style="display: inline-block;" fit="scale-down"></el-image>
+        <el-image class="MainImage" :src="mainui" style="display: inline-block;" fit="scale-down"></el-image>
       </el-col>
     </el-row>
     </el-main>
@@ -74,5 +74,9 @@ h4{
 .vertext{
     font-size: 10px;
     color: rgb(80, 80, 80);
+}
+.MainImage{
+  max-height: 480px;
+  max-width: 480px;
 }
 </style>
