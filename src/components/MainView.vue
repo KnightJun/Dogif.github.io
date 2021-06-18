@@ -8,19 +8,20 @@
             <h1>Dogif</h1>
 
             <h4>
-              Dogif is a powerful and easy-to-use screen recorder that can
-              record your screen with dynamic pictures in different formats and
-              visualize your keystrokes. Start with a simple click. Fast
-              recording, small files and clear images.
+              Start with a simple click.
+              <br>
+              Fast recording, small files, clear images.
             </h4>
-            <el-button class="ButtonText" type="primary">
+            <br>
+            <el-button id="down-Install" class="" type="primary" @click="DownClick($event)">
               <SvgIcon style="color:white" iconname="icon-window" />
               Installer
             </el-button>
-            <el-button class="ButtonText" type="primary">
+            <el-button id="down-Portable" class="" type="primary" @click="DownClick($event)">
               <SvgIcon iconname="icon-zip" />
               Portable
             </el-button>
+            <p class="vertext"> Version 1.0 </p>
           </div>
         </div>
       </el-col>
@@ -43,6 +44,16 @@ export default {
   components: {
       SvgIcon
   },
+  methods: {
+    DownClick(event){
+      event.currentTarget.blur();
+      var downurl="https://github.com/KnightJun/Dogif/releases/download/v1.0/dogif_1.0_installer.exe";
+      if(event.currentTarget.id == "down-Portable"){
+        downurl="https://github.com/KnightJun/Dogif/releases/download/v1.0/Dogif-v1.0.0.win64.zip"
+      }
+      window.open(downurl)
+    }
+  }
 };
 </script>
 
@@ -57,10 +68,11 @@ export default {
 h4{
     font-size: 18px;
     line-height: 28px;
-    color: rgb(20, 20, 20);
+    color: rgb(80,80, 80);
     margin: 10px 40px 5px 0px;
 }
-.ButtonText{
-  font-size: 32px;
+.vertext{
+    font-size: 10px;
+    color: rgb(80, 80, 80);
 }
 </style>

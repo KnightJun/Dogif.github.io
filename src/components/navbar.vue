@@ -24,7 +24,6 @@
         </el-menu>
       </el-header>
     </el-container>
-    <el-divider></el-divider>
 </template>
 
 <script>
