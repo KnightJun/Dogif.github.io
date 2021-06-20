@@ -24,8 +24,9 @@ export default {
         return {
         images: [
             {id:1, url: require("../assets/feature/feature.png"), title: "Easy to use control panel"},
-            {id:2, url: require("../assets/feature/fastRecord.webp"), title: "Smooth, high frame rate screen recording"},
-            {id:3, url: require("../assets/feature/keylogger.webp"), title: "Demonstrating keyboard and mouse operation during screen recording"},
+            {id:2, url: require("../assets/feature/sharing.webp"), title: "Quickly record and share animations"},
+            {id:3, url: require("../assets/feature/fastRecord.webp"), title: "Smooth, high frame rate screen recording"},
+            {id:4, url: require("../assets/feature/keylogger.webp"), title: "Demonstrating keyboard and mouse operation during screen recording"},
             ],
         };
     },
@@ -39,7 +40,9 @@ export default {
 .bgradient {
   background-image: linear-gradient(135deg, #fddb92 10%, #d1fdff 100%);
 }
-
+h3{
+  color: rgb(80, 80, 80);
+}
 .el-carousel__item {
   width: 100%;
   height: 100%;
