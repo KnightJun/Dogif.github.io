@@ -9,7 +9,7 @@
         </div>
         </div>
         <div class="ContactWay">
-        <p>© 2016-2021 Dogif. All rights reserved.</p>
+        <p>© 2021-2021 Dogif.top All rights reserved.</p>
         </div>
 </template>
 
