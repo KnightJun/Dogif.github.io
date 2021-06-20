@@ -47,6 +47,7 @@ export default {
   methods: {
     DownClick(event){
       event.currentTarget.blur();
+      window._hmt.push(['_trackEvent', 'software', 'download', event.currentTarget.id]);
       var downurl="https://github.com/KnightJun/Dogif/releases/download/v1.0/dogif_1.0_installer.exe";
       if(event.currentTarget.id == "down-Portable"){
         downurl="https://github.com/KnightJun/Dogif/releases/download/v1.0/Dogif-v1.0.0.win64.zip"

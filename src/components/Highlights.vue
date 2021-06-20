@@ -34,10 +34,10 @@ export default {
         },
         { id: 3, icon: "icon-POWER",
              title: "Powerful",
-             content: "Gif/APng/Webp, keylogging , playback progress bar, and much more"},
+             content: "keylogging, progress bar, and much more"},
         { id: 4, icon: "icon-setting",
             title: "Customizable",
-            content: "Global hotkeys, colour palette, compression levels, lossless, and more settings"},
+            content: "Smaller faster or clearer"},
       ],
     };
   },
@@ -62,6 +62,6 @@ export default {
 .ShowItem{
     text-align: center;
     max-width: 256px;
-    color: $mainTextColor;
+    color: rgb(80, 80, 80);
 }
 </style>
